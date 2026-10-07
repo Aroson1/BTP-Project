@@ -1,0 +1,71 @@
+{
+  "policy": {
+    "run_workflow": [
+      [
+        1,
+        0,
+        {
+          "kind": {
+            "enum": [
+              "hash"
+            ]
+          },
+          "source": {
+            "enum": [
+              "/workspace/repo-2/input/item-e8a52a55b3.txt"
+            ]
+          },
+          "target": {
+            "enum": [
+              "/workspace/repo-2/out/result-e8a52a55b3.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "read_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-2/input/item-e8a52a55b3.txt"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "write_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-2/out/result-e8a52a55b3.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "exec_python": [
+      [
+        1,
+        0,
+        {
+          "code": "(?s)^.*$"
+        },
+        0
+      ]
+    ]
+  },
+  "trusted_bindings": {
+    "input": "/workspace/repo-2/input/item-e8a52a55b3.txt",
+    "output": "/workspace/repo-2/out/result-e8a52a55b3.json"
+  },
+  "exact_code": "from benchmarks.large_payload import transform; transform(**{'kind': 'hash', 'source': '/workspace/repo-2/input/item-e8a52a55b3.txt', 'target': '/workspace/repo-2/out/result-e8a52a55b3.json'})"
+}

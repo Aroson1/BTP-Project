@@ -1,0 +1,10 @@
+PASS: schema-2 runtime integration and exact output creation
+PASS: exact output authority excludes sibling creation
+/opt/progent/secagent/policy_analysis.py:436: SyntaxWarning: invalid escape sequence '\.'
+  (1, 0, {"recipient": {"type": "string", "pattern": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"}}, 0),
+Policy Model: gpt-4o-2024-08-06
+PASS: swapped-input-symlink native/hardened reject; lexical exact baseline exposes the effect
+PASS: swapped-input-hardlink native/hardened reject; lexical exact baseline exposes the effect
+PASS: fixture source does not disclose the controller's random secret
+PASS: poisoned trace stress test and counterfactual permission removal
+6 comparison regression checks passed

@@ -1,0 +1,50 @@
+[
+  {
+    "k": 1,
+    "templates": false,
+    "successes": 8,
+    "total": 20
+  },
+  {
+    "k": 1,
+    "templates": true,
+    "successes": 8,
+    "total": 20
+  },
+  {
+    "k": 2,
+    "templates": false,
+    "successes": 16,
+    "total": 20
+  },
+  {
+    "k": 2,
+    "templates": true,
+    "successes": 20,
+    "total": 20
+  },
+  {
+    "k": 3,
+    "templates": false,
+    "successes": 20,
+    "total": 20
+  },
+  {
+    "k": 3,
+    "templates": true,
+    "successes": 20,
+    "total": 20
+  },
+  {
+    "k": 5,
+    "templates": false,
+    "successes": 20,
+    "total": 20
+  },
+  {
+    "k": 5,
+    "templates": true,
+    "successes": 20,
+    "total": 20
+  }
+]

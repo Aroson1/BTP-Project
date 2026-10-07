@@ -1,0 +1,52 @@
+{
+  "schema": 2,
+  "workflow": "repo-0-python-tests",
+  "training_runs": 3,
+  "include_rare": true,
+  "rules": [
+    {
+      "kind": "read",
+      "resource": "$input",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "write",
+      "resource": "$output",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "exec",
+      "resource": "/usr/local/bin/python3.13",
+      "source": "stable-evidence"
+    }
+  ],
+  "scopes": {
+    "input": "/workspace/repo-0/input",
+    "output": "/workspace/repo-0/out"
+  },
+  "protect_secrets": true,
+  "trace_hashes": [
+    "24703b92889990b5138000f1749b8433a75da6d31f3e53417b42dc3776409822",
+    "cd982facc08d412ad0e01015860f77cb53020a7bbc6e299824db13f5abdb1eb8",
+    "c00b72dee29427b5808e47718b09d34d899de9f7064b4ac8debd8efde4f107ca"
+  ],
+  "pruning": [
+    {
+      "rule": {
+        "kind": "read",
+        "resource": "/etc/passwd",
+        "source": "stable-evidence"
+      },
+      "removed": true
+    },
+    {
+      "rule": {
+        "kind": "read",
+        "resource": "/proc/sys/vm/overcommit_memory",
+        "source": "stable-evidence"
+      },
+      "removed": true
+    }
+  ],
+  "selection_evidence": "27da7669cc16d6cabefdf2f5570e65df50aedeeff46126c71aca8ed847ae6f76"
+}

@@ -1,0 +1,624 @@
+[
+  {
+    "configuration": "C0_container",
+    "workflow": "tests",
+    "profile_rules": null,
+    "kernel_resource_rules": 0,
+    "reachable_pairs": 32,
+    "excess_pairs": 28,
+    "expansions": []
+  },
+  {
+    "configuration": "C0_container",
+    "workflow": "docs",
+    "profile_rules": null,
+    "kernel_resource_rules": 0,
+    "reachable_pairs": 32,
+    "excess_pairs": 28,
+    "expansions": []
+  },
+  {
+    "configuration": "C0_container",
+    "workflow": "format",
+    "profile_rules": null,
+    "kernel_resource_rules": 0,
+    "reachable_pairs": 32,
+    "excess_pairs": 26,
+    "expansions": []
+  },
+  {
+    "configuration": "C0_container",
+    "workflow": "report",
+    "profile_rules": null,
+    "kernel_resource_rules": 0,
+    "reachable_pairs": 32,
+    "excess_pairs": 28,
+    "expansions": []
+  },
+  {
+    "configuration": "C0_container",
+    "workflow": "fetch",
+    "profile_rules": null,
+    "kernel_resource_rules": 0,
+    "reachable_pairs": 32,
+    "excess_pairs": 31,
+    "expansions": []
+  },
+  {
+    "configuration": "C1_network_denied",
+    "workflow": "tests",
+    "profile_rules": null,
+    "kernel_resource_rules": 4,
+    "reachable_pairs": 31,
+    "excess_pairs": 27,
+    "expansions": []
+  },
+  {
+    "configuration": "C1_network_denied",
+    "workflow": "docs",
+    "profile_rules": null,
+    "kernel_resource_rules": 4,
+    "reachable_pairs": 31,
+    "excess_pairs": 27,
+    "expansions": []
+  },
+  {
+    "configuration": "C1_network_denied",
+    "workflow": "format",
+    "profile_rules": null,
+    "kernel_resource_rules": 4,
+    "reachable_pairs": 31,
+    "excess_pairs": 25,
+    "expansions": []
+  },
+  {
+    "configuration": "C1_network_denied",
+    "workflow": "report",
+    "profile_rules": null,
+    "kernel_resource_rules": 4,
+    "reachable_pairs": 31,
+    "excess_pairs": 27,
+    "expansions": []
+  },
+  {
+    "configuration": "C1_network_denied",
+    "workflow": "fetch",
+    "profile_rules": null,
+    "kernel_resource_rules": 4,
+    "reachable_pairs": 31,
+    "excess_pairs": 30,
+    "expansions": []
+  },
+  {
+    "configuration": "C2_workspace",
+    "workflow": "tests",
+    "profile_rules": null,
+    "kernel_resource_rules": 5,
+    "reachable_pairs": 30,
+    "excess_pairs": 26,
+    "expansions": []
+  },
+  {
+    "configuration": "C2_workspace",
+    "workflow": "docs",
+    "profile_rules": null,
+    "kernel_resource_rules": 5,
+    "reachable_pairs": 30,
+    "excess_pairs": 26,
+    "expansions": []
+  },
+  {
+    "configuration": "C2_workspace",
+    "workflow": "format",
+    "profile_rules": null,
+    "kernel_resource_rules": 5,
+    "reachable_pairs": 30,
+    "excess_pairs": 24,
+    "expansions": []
+  },
+  {
+    "configuration": "C2_workspace",
+    "workflow": "report",
+    "profile_rules": null,
+    "kernel_resource_rules": 5,
+    "reachable_pairs": 30,
+    "excess_pairs": 26,
+    "expansions": []
+  },
+  {
+    "configuration": "C2_workspace",
+    "workflow": "fetch",
+    "profile_rules": null,
+    "kernel_resource_rules": 5,
+    "reachable_pairs": 30,
+    "excess_pairs": 29,
+    "expansions": []
+  },
+  {
+    "configuration": "C3_manual",
+    "workflow": "tests",
+    "profile_rules": null,
+    "kernel_resource_rules": 5,
+    "reachable_pairs": 4,
+    "excess_pairs": 0,
+    "expansions": []
+  },
+  {
+    "configuration": "C3_manual",
+    "workflow": "docs",
+    "profile_rules": null,
+    "kernel_resource_rules": 5,
+    "reachable_pairs": 4,
+    "excess_pairs": 0,
+    "expansions": []
+  },
+  {
+    "configuration": "C3_manual",
+    "workflow": "format",
+    "profile_rules": null,
+    "kernel_resource_rules": 7,
+    "reachable_pairs": 6,
+    "excess_pairs": 0,
+    "expansions": []
+  },
+  {
+    "configuration": "C3_manual",
+    "workflow": "report",
+    "profile_rules": null,
+    "kernel_resource_rules": 5,
+    "reachable_pairs": 4,
+    "excess_pairs": 0,
+    "expansions": []
+  },
+  {
+    "configuration": "C3_manual",
+    "workflow": "fetch",
+    "profile_rules": null,
+    "kernel_resource_rules": 3,
+    "reachable_pairs": 1,
+    "excess_pairs": 0,
+    "expansions": []
+  },
+  {
+    "configuration": "C4_literal_k1",
+    "workflow": "tests",
+    "profile_rules": 77,
+    "kernel_resource_rules": 77,
+    "reachable_pairs": 2,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/tests-0.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  },
+  {
+    "configuration": "C4_literal_k1",
+    "workflow": "docs",
+    "profile_rules": 77,
+    "kernel_resource_rules": 77,
+    "reachable_pairs": 2,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/docs-0.html",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  },
+  {
+    "configuration": "C4_literal_k1",
+    "workflow": "format",
+    "profile_rules": 77,
+    "kernel_resource_rules": 77,
+    "reachable_pairs": 2,
+    "excess_pairs": 0,
+    "expansions": []
+  },
+  {
+    "configuration": "C4_literal_k1",
+    "workflow": "report",
+    "profile_rules": 77,
+    "kernel_resource_rules": 77,
+    "reachable_pairs": 2,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/report-0.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  },
+  {
+    "configuration": "C4_literal_k1",
+    "workflow": "fetch",
+    "profile_rules": 80,
+    "kernel_resource_rules": 80,
+    "reachable_pairs": 1,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/fetch-0.txt",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  },
+  {
+    "configuration": "O2_union_k3",
+    "workflow": "tests",
+    "profile_rules": 81,
+    "kernel_resource_rules": 79,
+    "reachable_pairs": 4,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/tests-0.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/tests-1.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/tests-2.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  },
+  {
+    "configuration": "O2_union_k3",
+    "workflow": "docs",
+    "profile_rules": 81,
+    "kernel_resource_rules": 79,
+    "reachable_pairs": 4,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/docs-0.html",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/docs-1.html",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/docs-2.html",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  },
+  {
+    "configuration": "O2_union_k3",
+    "workflow": "format",
+    "profile_rules": 81,
+    "kernel_resource_rules": 81,
+    "reachable_pairs": 6,
+    "excess_pairs": 0,
+    "expansions": []
+  },
+  {
+    "configuration": "O2_union_k3",
+    "workflow": "report",
+    "profile_rules": 81,
+    "kernel_resource_rules": 79,
+    "reachable_pairs": 4,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/report-0.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/report-1.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/report-2.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  },
+  {
+    "configuration": "O2_union_k3",
+    "workflow": "fetch",
+    "profile_rules": 82,
+    "kernel_resource_rules": 80,
+    "reachable_pairs": 1,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/fetch-0.txt",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/fetch-1.txt",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/fetch-2.txt",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  },
+  {
+    "configuration": "O1_template_k2",
+    "workflow": "tests",
+    "profile_rules": 79,
+    "kernel_resource_rules": 79,
+    "reachable_pairs": 4,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/tests-0.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/tests-1.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  },
+  {
+    "configuration": "O1_template_k2",
+    "workflow": "docs",
+    "profile_rules": 79,
+    "kernel_resource_rules": 79,
+    "reachable_pairs": 4,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/docs-0.html",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/docs-1.html",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  },
+  {
+    "configuration": "O1_template_k2",
+    "workflow": "format",
+    "profile_rules": 79,
+    "kernel_resource_rules": 81,
+    "reachable_pairs": 6,
+    "excess_pairs": 0,
+    "expansions": []
+  },
+  {
+    "configuration": "O1_template_k2",
+    "workflow": "report",
+    "profile_rules": 79,
+    "kernel_resource_rules": 79,
+    "reachable_pairs": 4,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/report-0.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/report-1.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  },
+  {
+    "configuration": "O1_template_k2",
+    "workflow": "fetch",
+    "profile_rules": 82,
+    "kernel_resource_rules": 80,
+    "reachable_pairs": 1,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/fetch-0.txt",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/fetch-1.txt",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  },
+  {
+    "configuration": "support_0.5_k3",
+    "workflow": "tests",
+    "profile_rules": 75,
+    "kernel_resource_rules": 75,
+    "reachable_pairs": 0,
+    "excess_pairs": 0,
+    "expansions": []
+  },
+  {
+    "configuration": "support_0.5_k3",
+    "workflow": "docs",
+    "profile_rules": 75,
+    "kernel_resource_rules": 75,
+    "reachable_pairs": 0,
+    "excess_pairs": 0,
+    "expansions": []
+  },
+  {
+    "configuration": "support_0.5_k3",
+    "workflow": "format",
+    "profile_rules": 75,
+    "kernel_resource_rules": 75,
+    "reachable_pairs": 0,
+    "excess_pairs": 0,
+    "expansions": []
+  },
+  {
+    "configuration": "support_0.5_k3",
+    "workflow": "report",
+    "profile_rules": 75,
+    "kernel_resource_rules": 75,
+    "reachable_pairs": 0,
+    "excess_pairs": 0,
+    "expansions": []
+  },
+  {
+    "configuration": "support_0.5_k3",
+    "workflow": "fetch",
+    "profile_rules": 79,
+    "kernel_resource_rules": 79,
+    "reachable_pairs": 0,
+    "excess_pairs": 0,
+    "expansions": []
+  },
+  {
+    "configuration": "promotion_budget2_k3",
+    "workflow": "tests",
+    "profile_rules": 81,
+    "kernel_resource_rules": 77,
+    "reachable_pairs": 5,
+    "excess_pairs": 1,
+    "expansions": [
+      {
+        "requested": "/workspace/build/tests-0.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/tests-1.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/tests-2.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "granted": "/workspace/src",
+        "reason": "subtree-promotion",
+        "additional_objects": 1
+      }
+    ]
+  },
+  {
+    "configuration": "promotion_budget2_k3",
+    "workflow": "docs",
+    "profile_rules": 81,
+    "kernel_resource_rules": 77,
+    "reachable_pairs": 4,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/docs-0.html",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/docs-1.html",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/docs-2.html",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "granted": "/workspace/docs",
+        "reason": "subtree-promotion",
+        "additional_objects": 0
+      }
+    ]
+  },
+  {
+    "configuration": "promotion_budget2_k3",
+    "workflow": "format",
+    "profile_rules": 81,
+    "kernel_resource_rules": 77,
+    "reachable_pairs": 8,
+    "excess_pairs": 2,
+    "expansions": [
+      {
+        "granted": "/workspace/src",
+        "reason": "subtree-promotion",
+        "additional_objects": 1
+      },
+      {
+        "granted": "/workspace/src",
+        "reason": "subtree-promotion",
+        "additional_objects": 1
+      }
+    ]
+  },
+  {
+    "configuration": "promotion_budget2_k3",
+    "workflow": "report",
+    "profile_rules": 81,
+    "kernel_resource_rules": 79,
+    "reachable_pairs": 4,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/report-0.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/report-1.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/report-2.json",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  },
+  {
+    "configuration": "promotion_budget2_k3",
+    "workflow": "fetch",
+    "profile_rules": 82,
+    "kernel_resource_rules": 80,
+    "reachable_pairs": 1,
+    "excess_pairs": 0,
+    "expansions": [
+      {
+        "requested": "/workspace/build/fetch-0.txt",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/fetch-1.txt",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      },
+      {
+        "requested": "/workspace/build/fetch-2.txt",
+        "granted": "/workspace/build",
+        "reason": "creation-parent"
+      }
+    ]
+  }
+]

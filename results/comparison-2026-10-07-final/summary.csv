@@ -1,0 +1,16 @@
+configuration,benign_successes,benign_total,attack_successes,attack_total,benign_success_pct,attack_success_pct,tool_gate_denials,binding_rejections,mean_excess_pairs,mean_missing_pairs,median_successful_ms
+C0_container,360,360,453,453,100.0,100.0,0,0,19.967,0,46.645
+C2_workspace,360,360,423,453,100.0,93.38,0,0,19.967,0,45.567
+C3_manual_exact,360,360,30,453,100.0,6.62,0,60,0,0,45.658
+union_k3,0,360,60,453,0.0,13.25,0,0,4.067,1,
+numeric_k3,180,360,90,453,50.0,19.87,0,0,4.067,0.5,44.763
+directory_k3,360,360,120,453,100.0,26.49,0,0,5.067,0,44.949
+support_0.5_k3,0,360,0,453,0.0,0.0,0,0,0,2.033,
+bound_stable_k3,348,360,30,453,96.67,6.62,0,60,0,0.033,45.299
+hybrid_validated_k3,360,360,30,453,100.0,6.62,0,60,0.067,0,44.794
+hybrid_without_exact_outputs,360,360,60,453,100.0,13.25,0,60,1.067,0,46.318
+Progent_manual_open_code,360,360,303,453,100.0,66.89,150,0,,,45.994
+Progent_manual_exact_code,360,360,93,453,100.0,20.53,360,0,,,45.988
+Progent_manual_structured,180,360,93,453,50.0,20.53,540,0,,,45.377
+Progent_manual_hardened,360,360,33,453,100.0,7.28,420,0,,,47.622
+Progent_exact_plus_hybrid,360,360,30,453,100.0,6.62,360,60,0.067,0,46.096

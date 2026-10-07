@@ -1,0 +1,43 @@
+{
+  "schema": 2,
+  "workflow": "repo-1-sqlite-report",
+  "training_runs": 3,
+  "include_rare": false,
+  "rules": [
+    {
+      "kind": "read",
+      "resource": "$input",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "write",
+      "resource": "$output",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "exec",
+      "resource": "/usr/local/bin/python3.13",
+      "source": "stable-evidence"
+    },
+    {
+      "kind": "read",
+      "resource": "/etc/passwd",
+      "source": "stable-evidence"
+    },
+    {
+      "kind": "read",
+      "resource": "/proc/sys/vm/overcommit_memory",
+      "source": "stable-evidence"
+    }
+  ],
+  "scopes": {
+    "input": "/workspace/repo-1/input",
+    "output": "/workspace/repo-1/out"
+  },
+  "protect_secrets": true,
+  "trace_hashes": [
+    "8ae43e09475a9b102984e7a6395f57148c9b02b66c63a38c857b2258f3d66cdd",
+    "da1760e48f4a13b6984e01cb5bac660be913d181c23b15758ce91af4dc7564e2",
+    "602185aec503655c05a55292e3b9790eb0ef03643651045cc93f00ac99d36664"
+  ]
+}

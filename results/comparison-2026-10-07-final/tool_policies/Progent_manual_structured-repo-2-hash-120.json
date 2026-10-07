@@ -1,0 +1,61 @@
+{
+  "policy": {
+    "run_workflow": [
+      [
+        1,
+        0,
+        {
+          "kind": {
+            "enum": [
+              "hash"
+            ]
+          },
+          "source": {
+            "enum": [
+              "/workspace/repo-2/input/item-ee2e22693b.txt"
+            ]
+          },
+          "target": {
+            "enum": [
+              "/workspace/repo-2/out/result-ee2e22693b.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "read_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-2/input/item-ee2e22693b.txt"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "write_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-2/out/result-ee2e22693b.json"
+            ]
+          }
+        },
+        0
+      ]
+    ]
+  },
+  "trusted_bindings": {
+    "input": "/workspace/repo-2/input/item-ee2e22693b.txt",
+    "output": "/workspace/repo-2/out/result-ee2e22693b.json"
+  },
+  "exact_code": "from benchmarks.large_payload import transform; transform(**{'kind': 'hash', 'source': '/workspace/repo-2/input/item-ee2e22693b.txt', 'target': '/workspace/repo-2/out/result-ee2e22693b.json'})"
+}

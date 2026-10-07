@@ -1,0 +1,61 @@
+{
+  "policy": {
+    "run_workflow": [
+      [
+        1,
+        0,
+        {
+          "kind": {
+            "enum": [
+              "json-total"
+            ]
+          },
+          "source": {
+            "enum": [
+              "/workspace/repo-0/input/item-103.json"
+            ]
+          },
+          "target": {
+            "enum": [
+              "/workspace/repo-0/out/result-103.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "read_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-0/input/item-103.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "write_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-0/out/result-103.json"
+            ]
+          }
+        },
+        0
+      ]
+    ]
+  },
+  "trusted_bindings": {
+    "input": "/workspace/repo-0/input/item-103.json",
+    "output": "/workspace/repo-0/out/result-103.json"
+  },
+  "exact_code": "from benchmarks.large_payload import transform; transform(**{'kind': 'json-total', 'source': '/workspace/repo-0/input/item-103.json', 'target': '/workspace/repo-0/out/result-103.json'})"
+}

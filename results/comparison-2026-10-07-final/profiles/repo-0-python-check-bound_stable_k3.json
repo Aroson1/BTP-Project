@@ -1,0 +1,43 @@
+{
+  "schema": 2,
+  "workflow": "repo-0-python-check",
+  "training_runs": 3,
+  "include_rare": false,
+  "rules": [
+    {
+      "kind": "read",
+      "resource": "$input",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "write",
+      "resource": "$output",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "exec",
+      "resource": "/usr/local/bin/python3.13",
+      "source": "stable-evidence"
+    },
+    {
+      "kind": "read",
+      "resource": "/etc/passwd",
+      "source": "stable-evidence"
+    },
+    {
+      "kind": "read",
+      "resource": "/proc/sys/vm/overcommit_memory",
+      "source": "stable-evidence"
+    }
+  ],
+  "scopes": {
+    "input": "/workspace/repo-0/input",
+    "output": "/workspace/repo-0/out"
+  },
+  "protect_secrets": true,
+  "trace_hashes": [
+    "168faf88cab3b90950e2c375c264cbd033235482a7493a87db4f7353296da32f",
+    "6bfea2be04a783fb7269bd507d246dfd98634e320c717b6c101ab3f989563183",
+    "42b9624abd089ed89ed412901aaf935d21366e7bf089040688ffa4e8e3a73bde"
+  ]
+}

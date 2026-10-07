@@ -1,0 +1,348 @@
+{
+  "bindings": {
+    "input": "/workspace/repo-1/input/item-0.csv",
+    "output": "/workspace/repo-1/out/result-0.json"
+  },
+  "trace": {
+    "events": [
+      {
+        "kind": "exec",
+        "path": "/usr/local/bin/python3.13",
+        "pid": 756,
+        "syscall": "execve"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/libpython3.13.so.1.0",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/etc/ld.so.cache",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/lib/aarch64-linux-gnu/libc.so.6",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/lib/aarch64-linux-gnu/libm.so.6",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/proc/sys/vm/overcommit_memory",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/lib/locale/C.utf8/LC_CTYPE",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/lib/aarch64-linux-gnu/gconv/gconv-modules.cache",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/share/zoneinfo/Etc/UTC",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/opt/agentprof",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/encodings/__init__.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/encodings",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/encodings/aliases.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/encodings/utf_8.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/etc/nsswitch.conf",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/etc/passwd",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/site-packages",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/lib-dynload",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/site-packages",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/opt/agentprof/benchmarks/large_payload.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/opt/agentprof/benchmarks/large_payload.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/opt/agentprof/benchmarks",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/json/__init__.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/json",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/json/decoder.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/re/__init__.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/enum.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/functools.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/collections/__init__.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/keyword.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/operator.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/reprlib.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/types.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/re",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/re/_compiler.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/re/_parser.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/re/_constants.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/re/_casefix.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/copyreg.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/json/scanner.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/lib-dynload/_json.cpython-313-aarch64-linux-gnu.so",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/json/encoder.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/pathlib/__init__.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/pathlib",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/pathlib/_abc.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/glob.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/contextlib.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/fnmatch.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/pathlib/_local.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/warnings.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/lib-dynload/grp.cpython-313-aarch64-linux-gnu.so",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/csv.py",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/lib-dynload/_csv.cpython-313-aarch64-linux-gnu.so",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/workspace/repo-1/input/item-0.csv",
+        "pid": 756,
+        "syscall": "openat"
+      },
+      {
+        "kind": "write",
+        "path": "/workspace/repo-1/out/result-0.json",
+        "pid": 756,
+        "syscall": "openat"
+      }
+    ],
+    "skipped_split_calls": 0,
+    "format": "strace-fixtures-v1"
+  }
+}

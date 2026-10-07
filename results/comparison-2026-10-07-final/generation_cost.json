@@ -1,0 +1,152 @@
+[
+  {
+    "task": "repo-0-json-total",
+    "learning_seconds": 0.2805898340002386,
+    "synthesis_and_validation_seconds": 2.8121600849999595
+  },
+  {
+    "task": "repo-0-csv-total",
+    "learning_seconds": 0.27790504099993996,
+    "synthesis_and_validation_seconds": 3.8003580439999496
+  },
+  {
+    "task": "repo-0-log-count",
+    "learning_seconds": 0.2808977920003599,
+    "synthesis_and_validation_seconds": 2.9459091259996057
+  },
+  {
+    "task": "repo-0-markdown",
+    "learning_seconds": 0.30327262500031793,
+    "synthesis_and_validation_seconds": 2.942361792999691
+  },
+  {
+    "task": "repo-0-config-check",
+    "learning_seconds": 0.3340386249992662,
+    "synthesis_and_validation_seconds": 3.316785169000468
+  },
+  {
+    "task": "repo-0-python-check",
+    "learning_seconds": 0.29792899999938527,
+    "synthesis_and_validation_seconds": 3.0020707940002467
+  },
+  {
+    "task": "repo-0-python-tests",
+    "learning_seconds": 0.2679514580004252,
+    "synthesis_and_validation_seconds": 2.818769749999774
+  },
+  {
+    "task": "repo-0-archive-manifest",
+    "learning_seconds": 0.38567616700038343,
+    "synthesis_and_validation_seconds": 3.36313308499939
+  },
+  {
+    "task": "repo-0-sqlite-report",
+    "learning_seconds": 0.31726687500031403,
+    "synthesis_and_validation_seconds": 3.5459069600001385
+  },
+  {
+    "task": "repo-0-hash",
+    "learning_seconds": 0.2868595829995684,
+    "synthesis_and_validation_seconds": 3.0017476689999967
+  },
+  {
+    "task": "repo-1-json-total",
+    "learning_seconds": 0.2817136670000764,
+    "synthesis_and_validation_seconds": 2.832175709000694
+  },
+  {
+    "task": "repo-1-csv-total",
+    "learning_seconds": 0.28500008399987564,
+    "synthesis_and_validation_seconds": 3.0715840430002572
+  },
+  {
+    "task": "repo-1-log-count",
+    "learning_seconds": 0.26869695899949875,
+    "synthesis_and_validation_seconds": 2.8113908340001217
+  },
+  {
+    "task": "repo-1-markdown",
+    "learning_seconds": 0.2887313749997702,
+    "synthesis_and_validation_seconds": 2.965178377000484
+  },
+  {
+    "task": "repo-1-config-check",
+    "learning_seconds": 0.3297840420000284,
+    "synthesis_and_validation_seconds": 3.218425084000046
+  },
+  {
+    "task": "repo-1-python-check",
+    "learning_seconds": 0.30757100000028004,
+    "synthesis_and_validation_seconds": 2.960483000999375
+  },
+  {
+    "task": "repo-1-python-tests",
+    "learning_seconds": 0.2655912909995095,
+    "synthesis_and_validation_seconds": 2.8532913770004598
+  },
+  {
+    "task": "repo-1-archive-manifest",
+    "learning_seconds": 0.3795426670003508,
+    "synthesis_and_validation_seconds": 3.3517041269997208
+  },
+  {
+    "task": "repo-1-sqlite-report",
+    "learning_seconds": 0.3099907499999972,
+    "synthesis_and_validation_seconds": 3.9174822519998997
+  },
+  {
+    "task": "repo-1-hash",
+    "learning_seconds": 0.4326389170000766,
+    "synthesis_and_validation_seconds": 3.574512667999443
+  },
+  {
+    "task": "repo-2-json-total",
+    "learning_seconds": 0.4616040829996564,
+    "synthesis_and_validation_seconds": 3.758427501999904
+  },
+  {
+    "task": "repo-2-csv-total",
+    "learning_seconds": 0.3665482920005161,
+    "synthesis_and_validation_seconds": 3.3545764179998514
+  },
+  {
+    "task": "repo-2-log-count",
+    "learning_seconds": 0.2801134159999492,
+    "synthesis_and_validation_seconds": 2.962188169000001
+  },
+  {
+    "task": "repo-2-markdown",
+    "learning_seconds": 0.29780045799998334,
+    "synthesis_and_validation_seconds": 3.044293041999481
+  },
+  {
+    "task": "repo-2-config-check",
+    "learning_seconds": 0.3462940420004088,
+    "synthesis_and_validation_seconds": 3.501965168999959
+  },
+  {
+    "task": "repo-2-python-check",
+    "learning_seconds": 0.29964387500058365,
+    "synthesis_and_validation_seconds": 3.109507834999931
+  },
+  {
+    "task": "repo-2-python-tests",
+    "learning_seconds": 0.2802034590004041,
+    "synthesis_and_validation_seconds": 2.94169387599959
+  },
+  {
+    "task": "repo-2-archive-manifest",
+    "learning_seconds": 0.38412783300009323,
+    "synthesis_and_validation_seconds": 3.444986460000109
+  },
+  {
+    "task": "repo-2-sqlite-report",
+    "learning_seconds": 0.3306615839992446,
+    "synthesis_and_validation_seconds": 3.5771182930002396
+  },
+  {
+    "task": "repo-2-hash",
+    "learning_seconds": 0.2892002499993396,
+    "synthesis_and_validation_seconds": 3.152707709000424
+  }
+]

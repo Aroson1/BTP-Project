@@ -1,0 +1,98 @@
+{
+  "selection_counts": {
+    "bound_pruned": 30
+  },
+  "removed_stable_rules": 63,
+  "retained_stable_rules": 3,
+  "poisoning": {
+    "poisoned_union": {
+      "harmful_successes": 10,
+      "total": 10
+    },
+    "poisoned_bound_unpruned": {
+      "harmful_successes": 10,
+      "total": 10
+    },
+    "poisoned_hybrid_pruned": {
+      "harmful_successes": 0,
+      "total": 10
+    }
+  },
+  "matched_overhead": [
+    {
+      "configuration": "C0_container",
+      "paired_successes": 360,
+      "median_overhead_pct": 0.0
+    },
+    {
+      "configuration": "C2_workspace",
+      "paired_successes": 360,
+      "median_overhead_pct": -0.27
+    },
+    {
+      "configuration": "C3_manual_exact",
+      "paired_successes": 360,
+      "median_overhead_pct": -0.32
+    },
+    {
+      "configuration": "union_k3",
+      "paired_successes": 0,
+      "median_overhead_pct": null
+    },
+    {
+      "configuration": "numeric_k3",
+      "paired_successes": 180,
+      "median_overhead_pct": -0.12
+    },
+    {
+      "configuration": "directory_k3",
+      "paired_successes": 360,
+      "median_overhead_pct": -0.36
+    },
+    {
+      "configuration": "support_0.5_k3",
+      "paired_successes": 0,
+      "median_overhead_pct": null
+    },
+    {
+      "configuration": "bound_stable_k3",
+      "paired_successes": 348,
+      "median_overhead_pct": -0.05
+    },
+    {
+      "configuration": "hybrid_validated_k3",
+      "paired_successes": 360,
+      "median_overhead_pct": -1.5
+    },
+    {
+      "configuration": "hybrid_without_exact_outputs",
+      "paired_successes": 360,
+      "median_overhead_pct": -0.64
+    },
+    {
+      "configuration": "Progent_manual_open_code",
+      "paired_successes": 360,
+      "median_overhead_pct": 0.18
+    },
+    {
+      "configuration": "Progent_manual_exact_code",
+      "paired_successes": 360,
+      "median_overhead_pct": -0.1
+    },
+    {
+      "configuration": "Progent_manual_structured",
+      "paired_successes": 180,
+      "median_overhead_pct": 0.12
+    },
+    {
+      "configuration": "Progent_manual_hardened",
+      "paired_successes": 360,
+      "median_overhead_pct": 2.65
+    },
+    {
+      "configuration": "Progent_exact_plus_hybrid",
+      "paired_successes": 360,
+      "median_overhead_pct": 1.13
+    }
+  ]
+}

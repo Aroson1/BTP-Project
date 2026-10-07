@@ -1,0 +1,75 @@
+{
+  "policy": {
+    "run_workflow": [
+      [
+        1,
+        0,
+        {
+          "kind": {
+            "enum": [
+              "sqlite-report"
+            ]
+          },
+          "source": {
+            "enum": [
+              "/workspace/repo-1/input/item-102.db"
+            ]
+          },
+          "target": {
+            "enum": [
+              "/workspace/repo-1/out/result-102.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "read_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-1/input/item-102.db"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "write_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-1/out/result-102.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "exec_python": [
+      [
+        1,
+        0,
+        {
+          "code": {
+            "enum": [
+              "from benchmarks.large_payload import transform; transform(**{'kind': 'sqlite-report', 'source': '/workspace/repo-1/input/item-102.db', 'target': '/workspace/repo-1/out/result-102.json'})"
+            ]
+          }
+        },
+        0
+      ]
+    ]
+  },
+  "trusted_bindings": {
+    "input": "/workspace/repo-1/input/item-102.db",
+    "output": "/workspace/repo-1/out/result-102.json"
+  },
+  "exact_code": "from benchmarks.large_payload import transform; transform(**{'kind': 'sqlite-report', 'source': '/workspace/repo-1/input/item-102.db', 'target': '/workspace/repo-1/out/result-102.json'})"
+}

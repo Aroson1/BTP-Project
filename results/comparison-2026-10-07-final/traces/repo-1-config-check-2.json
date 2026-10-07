@@ -1,0 +1,396 @@
+{
+  "bindings": {
+    "input": "/workspace/repo-1/input/item-2.toml",
+    "output": "/workspace/repo-1/out/result-2.json"
+  },
+  "trace": {
+    "events": [
+      {
+        "kind": "exec",
+        "path": "/usr/local/bin/python3.13",
+        "pid": 968,
+        "syscall": "execve"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/libpython3.13.so.1.0",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/etc/ld.so.cache",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/lib/aarch64-linux-gnu/libc.so.6",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/lib/aarch64-linux-gnu/libm.so.6",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/proc/sys/vm/overcommit_memory",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/lib/locale/C.utf8/LC_CTYPE",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/lib/aarch64-linux-gnu/gconv/gconv-modules.cache",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/share/zoneinfo/Etc/UTC",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/opt/agentprof",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/encodings/__init__.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/encodings",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/encodings/aliases.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/encodings/utf_8.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/etc/nsswitch.conf",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/etc/passwd",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/site-packages",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/lib-dynload",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/site-packages",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/opt/agentprof/benchmarks/large_payload.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/opt/agentprof/benchmarks/large_payload.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/opt/agentprof/benchmarks",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/json/__init__.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/json",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/json/decoder.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/re/__init__.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/enum.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/functools.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/collections/__init__.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/keyword.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/operator.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/reprlib.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/types.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/re",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/re/_compiler.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/re/_parser.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/re/_constants.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/re/_casefix.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/copyreg.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/json/scanner.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/lib-dynload/_json.cpython-313-aarch64-linux-gnu.so",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/json/encoder.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/pathlib/__init__.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/pathlib",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/pathlib/_abc.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/glob.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/contextlib.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/fnmatch.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/pathlib/_local.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/warnings.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/lib-dynload/grp.cpython-313-aarch64-linux-gnu.so",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/tomllib/__init__.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "list",
+        "path": "/usr/local/lib/python3.13/tomllib",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/tomllib/_parser.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/__future__.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/string.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/typing.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/tomllib/_re.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/datetime.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/lib-dynload/_datetime.cpython-313-aarch64-linux-gnu.so",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/usr/local/lib/python3.13/tomllib/_types.py",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "read",
+        "path": "/workspace/repo-1/input/item-2.toml",
+        "pid": 968,
+        "syscall": "openat"
+      },
+      {
+        "kind": "write",
+        "path": "/workspace/repo-1/out/result-2.json",
+        "pid": 968,
+        "syscall": "openat"
+      }
+    ],
+    "skipped_split_calls": 0,
+    "format": "strace-fixtures-v1"
+  }
+}

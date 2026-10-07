@@ -1,0 +1,63 @@
+{
+  "policy": {
+    "run_workflow": [
+      [
+        1,
+        0,
+        {
+          "kind": {
+            "enum": [
+              "archive-manifest"
+            ]
+          },
+          "source": "callable:safe_input",
+          "target": {
+            "enum": [
+              "/workspace/repo-0/out/result-e8a52a55b3.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "read_file": [
+      [
+        1,
+        0,
+        {
+          "path": "callable:safe_input"
+        },
+        0
+      ]
+    ],
+    "write_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-0/out/result-e8a52a55b3.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "exec_python": [
+      [
+        1,
+        0,
+        {
+          "code": "callable:safe_code"
+        },
+        0
+      ]
+    ]
+  },
+  "trusted_bindings": {
+    "input": "/workspace/repo-0/input/item-e8a52a55b3.zip",
+    "output": "/workspace/repo-0/out/result-e8a52a55b3.json"
+  },
+  "exact_code": "from benchmarks.large_payload import transform; transform(**{'kind': 'archive-manifest', 'source': '/workspace/repo-0/input/item-e8a52a55b3.zip', 'target': '/workspace/repo-0/out/result-e8a52a55b3.json'})"
+}

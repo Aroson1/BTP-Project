@@ -1,0 +1,71 @@
+{
+  "policy": {
+    "run_workflow": [
+      [
+        1,
+        0,
+        {
+          "kind": {
+            "enum": [
+              "python-check"
+            ]
+          },
+          "source": {
+            "enum": [
+              "/workspace/repo-0/input/item-102.py"
+            ]
+          },
+          "target": {
+            "enum": [
+              "/workspace/repo-0/out/result-102.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "read_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-0/input/item-102.py"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "write_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-0/out/result-102.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "exec_python": [
+      [
+        1,
+        0,
+        {
+          "code": "(?s)^.*$"
+        },
+        0
+      ]
+    ]
+  },
+  "trusted_bindings": {
+    "input": "/workspace/repo-0/input/item-102.py",
+    "output": "/workspace/repo-0/out/result-102.json"
+  },
+  "exact_code": "from benchmarks.large_payload import transform; transform(**{'kind': 'python-check', 'source': '/workspace/repo-0/input/item-102.py', 'target': '/workspace/repo-0/out/result-102.json'})"
+}

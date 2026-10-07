@@ -1,0 +1,14 @@
+PASS: read allowed file
+PASS: deny workspace secret
+PASS: deny outside secret
+PASS: deny direct symlink to secret
+PASS: deny inherited child read
+PASS: deny unapproved executable
+PASS: deny raw socket
+PASS: deny UDP socket
+PASS: deny protected write
+PASS: permit output creation
+PASS: TCP port 8765 allowed = True
+PASS: TCP port 8766 allowed = False
+PASS: restore earlier permitted write after a failed run
+13 Linux checks passed

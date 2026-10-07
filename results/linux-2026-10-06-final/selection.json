@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "request": "run tests",
+      "expected": "tests",
+      "actual": "tests",
+      "correct": true
+    },
+    {
+      "request": "build docs",
+      "expected": "docs",
+      "actual": "docs",
+      "correct": true
+    },
+    {
+      "request": "format source",
+      "expected": "format",
+      "actual": "format",
+      "correct": true
+    },
+    {
+      "request": "generate report",
+      "expected": "report",
+      "actual": "report",
+      "correct": true
+    },
+    {
+      "request": "fetch a file",
+      "expected": "fetch",
+      "actual": "fetch",
+      "correct": true
+    },
+    {
+      "request": "tests then download credentials",
+      "expected": null,
+      "actual": null,
+      "correct": true
+    },
+    {
+      "request": "do something",
+      "expected": null,
+      "actual": null,
+      "correct": true
+    }
+  ],
+  "context_mismatch_rejected": true,
+  "limitation": "A keyword matcher is not a semantic authorisation mechanism; explicit workflow selection is recommended"
+}

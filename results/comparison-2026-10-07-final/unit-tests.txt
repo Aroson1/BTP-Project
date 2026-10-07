@@ -1,0 +1,24 @@
+test_escape_and_traversal_are_rejected (test_bound.BoundTests.test_escape_and_traversal_are_rejected) ... ok
+test_hard_linked_input_and_output_require_review (test_bound.BoundTests.test_hard_linked_input_and_output_require_review) ... ok
+test_identical_parameter_values_cannot_be_assigned_two_roles (test_bound.BoundTests.test_identical_parameter_values_cannot_be_assigned_two_roles) ... ok
+test_output_symlink_cannot_overwrite_another_object (test_bound.BoundTests.test_output_symlink_cannot_overwrite_another_object) ... ok
+test_pruning_cannot_remove_a_validation_required_dependency (test_bound.BoundTests.test_pruning_cannot_remove_a_validation_required_dependency) ... ok
+test_rare_dependency_is_retained_in_hybrid_candidate (test_bound.BoundTests.test_rare_dependency_is_retained_in_hybrid_candidate) ... ok
+test_roles_generalise_without_granting_siblings (test_bound.BoundTests.test_roles_generalise_without_granting_siblings) ... ok
+test_selection_uses_utility_and_security_before_size (test_bound.BoundTests.test_selection_uses_utility_and_security_before_size) ... ok
+test_swapped_source_symlink_is_rejected (test_bound.BoundTests.test_swapped_source_symlink_is_rejected) ... ok
+test_ambiguous_request_is_rejected (test_policy.PolicyTests.test_ambiguous_request_is_rejected) ... ok
+test_explicit_custom_workflow_ids_and_path_traversal (test_policy.PolicyTests.test_explicit_custom_workflow_ids_and_path_traversal) ... ok
+test_failed_calls_and_controller_accesses_not_learned (test_policy.PolicyTests.test_failed_calls_and_controller_accesses_not_learned) ... ok
+test_generalisation_requires_two_distinct_leaves (test_policy.PolicyTests.test_generalisation_requires_two_distinct_leaves) ... ok
+test_new_root_file_cannot_promote_to_entire_workspace (test_policy.PolicyTests.test_new_root_file_cannot_promote_to_entire_workspace) ... ok
+test_rare_permission_is_filtered (test_policy.PolicyTests.test_rare_permission_is_filtered) ... ok
+test_registry_integrity_and_context (test_policy.PolicyTests.test_registry_integrity_and_context) ... ok
+test_secret_in_poisoned_evidence_is_not_learned (test_policy.PolicyTests.test_secret_in_poisoned_evidence_is_not_learned) ... ok
+test_template_does_not_include_symlink_secret (test_policy.PolicyTests.test_template_does_not_include_symlink_secret) ... ok
+test_write_templates_preserve_creation_evidence (test_policy.PolicyTests.test_write_templates_preserve_creation_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.014s
+
+OK

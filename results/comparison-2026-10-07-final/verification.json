@@ -1,0 +1,17 @@
+{
+  "main_executions": 12195,
+  "unique_case_keys": true,
+  "source_hashes_match": true,
+  "summary_recomputed": true,
+  "cases_hash_matches": true,
+  "selection_evidence_verified": true,
+  "train_development_test_disjoint": true,
+  "all_broad_control_effects_verified": true,
+  "random_secret_hash_verified": true,
+  "launch_failures": 0,
+  "timeouts": 0,
+  "model_calls": 0,
+  "unit_tests_passed": 19,
+  "linux_checks_passed": 13,
+  "comparison_checks_passed": 6
+}

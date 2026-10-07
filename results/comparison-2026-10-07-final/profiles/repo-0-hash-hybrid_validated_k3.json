@@ -1,0 +1,60 @@
+{
+  "schema": 2,
+  "workflow": "repo-0-hash",
+  "training_runs": 3,
+  "include_rare": true,
+  "rules": [
+    {
+      "kind": "read",
+      "resource": "$input",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "write",
+      "resource": "$output",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "exec",
+      "resource": "/usr/local/bin/python3.13",
+      "source": "stable-evidence"
+    }
+  ],
+  "scopes": {
+    "input": "/workspace/repo-0/input",
+    "output": "/workspace/repo-0/out"
+  },
+  "protect_secrets": true,
+  "trace_hashes": [
+    "ebef593a7b6047d1e5a62613f0d9005fb50502893a15dadec70db982e71ec8eb",
+    "56bd5ffc3d0a9bd0274da13b0628957a04dc888150557450a552721aecbc4ea3",
+    "618c094c6ef1e1e7b3bdd7fa196e3b1e3080246df44634ef3ab50e84defafb98"
+  ],
+  "pruning": [
+    {
+      "rule": {
+        "kind": "read",
+        "resource": "/etc/passwd",
+        "source": "stable-evidence"
+      },
+      "removed": true
+    },
+    {
+      "rule": {
+        "kind": "read",
+        "resource": "/etc/ssl/openssl.cnf",
+        "source": "stable-evidence"
+      },
+      "removed": true
+    },
+    {
+      "rule": {
+        "kind": "read",
+        "resource": "/proc/sys/vm/overcommit_memory",
+        "source": "stable-evidence"
+      },
+      "removed": true
+    }
+  ],
+  "selection_evidence": "cc92f8d76a3bbb9d6ec9163343ad89419ea0d3a0397904746aa4285e627644d0"
+}

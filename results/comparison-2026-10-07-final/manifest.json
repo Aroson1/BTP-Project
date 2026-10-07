@@ -1,0 +1,277 @@
+{
+  "suite": "larger-controlled-workflows-v2",
+  "date": "2026-10-07",
+  "environment": {
+    "landlock_abi": 6,
+    "supported": true,
+    "kernel": "6.12.76-linuxkit",
+    "architecture": "aarch64",
+    "python": "3.13.15"
+  },
+  "tasks": [
+    {
+      "id": "repo-0-json-total",
+      "repo": "repo-0",
+      "kind": "json-total",
+      "extension": "json"
+    },
+    {
+      "id": "repo-0-csv-total",
+      "repo": "repo-0",
+      "kind": "csv-total",
+      "extension": "csv"
+    },
+    {
+      "id": "repo-0-log-count",
+      "repo": "repo-0",
+      "kind": "log-count",
+      "extension": "log"
+    },
+    {
+      "id": "repo-0-markdown",
+      "repo": "repo-0",
+      "kind": "markdown",
+      "extension": "md"
+    },
+    {
+      "id": "repo-0-config-check",
+      "repo": "repo-0",
+      "kind": "config-check",
+      "extension": "toml"
+    },
+    {
+      "id": "repo-0-python-check",
+      "repo": "repo-0",
+      "kind": "python-check",
+      "extension": "py"
+    },
+    {
+      "id": "repo-0-python-tests",
+      "repo": "repo-0",
+      "kind": "python-tests",
+      "extension": "py"
+    },
+    {
+      "id": "repo-0-archive-manifest",
+      "repo": "repo-0",
+      "kind": "archive-manifest",
+      "extension": "zip"
+    },
+    {
+      "id": "repo-0-sqlite-report",
+      "repo": "repo-0",
+      "kind": "sqlite-report",
+      "extension": "db"
+    },
+    {
+      "id": "repo-0-hash",
+      "repo": "repo-0",
+      "kind": "hash",
+      "extension": "txt"
+    },
+    {
+      "id": "repo-1-json-total",
+      "repo": "repo-1",
+      "kind": "json-total",
+      "extension": "json"
+    },
+    {
+      "id": "repo-1-csv-total",
+      "repo": "repo-1",
+      "kind": "csv-total",
+      "extension": "csv"
+    },
+    {
+      "id": "repo-1-log-count",
+      "repo": "repo-1",
+      "kind": "log-count",
+      "extension": "log"
+    },
+    {
+      "id": "repo-1-markdown",
+      "repo": "repo-1",
+      "kind": "markdown",
+      "extension": "md"
+    },
+    {
+      "id": "repo-1-config-check",
+      "repo": "repo-1",
+      "kind": "config-check",
+      "extension": "toml"
+    },
+    {
+      "id": "repo-1-python-check",
+      "repo": "repo-1",
+      "kind": "python-check",
+      "extension": "py"
+    },
+    {
+      "id": "repo-1-python-tests",
+      "repo": "repo-1",
+      "kind": "python-tests",
+      "extension": "py"
+    },
+    {
+      "id": "repo-1-archive-manifest",
+      "repo": "repo-1",
+      "kind": "archive-manifest",
+      "extension": "zip"
+    },
+    {
+      "id": "repo-1-sqlite-report",
+      "repo": "repo-1",
+      "kind": "sqlite-report",
+      "extension": "db"
+    },
+    {
+      "id": "repo-1-hash",
+      "repo": "repo-1",
+      "kind": "hash",
+      "extension": "txt"
+    },
+    {
+      "id": "repo-2-json-total",
+      "repo": "repo-2",
+      "kind": "json-total",
+      "extension": "json"
+    },
+    {
+      "id": "repo-2-csv-total",
+      "repo": "repo-2",
+      "kind": "csv-total",
+      "extension": "csv"
+    },
+    {
+      "id": "repo-2-log-count",
+      "repo": "repo-2",
+      "kind": "log-count",
+      "extension": "log"
+    },
+    {
+      "id": "repo-2-markdown",
+      "repo": "repo-2",
+      "kind": "markdown",
+      "extension": "md"
+    },
+    {
+      "id": "repo-2-config-check",
+      "repo": "repo-2",
+      "kind": "config-check",
+      "extension": "toml"
+    },
+    {
+      "id": "repo-2-python-check",
+      "repo": "repo-2",
+      "kind": "python-check",
+      "extension": "py"
+    },
+    {
+      "id": "repo-2-python-tests",
+      "repo": "repo-2",
+      "kind": "python-tests",
+      "extension": "py"
+    },
+    {
+      "id": "repo-2-archive-manifest",
+      "repo": "repo-2",
+      "kind": "archive-manifest",
+      "extension": "zip"
+    },
+    {
+      "id": "repo-2-sqlite-report",
+      "repo": "repo-2",
+      "kind": "sqlite-report",
+      "extension": "db"
+    },
+    {
+      "id": "repo-2-hash",
+      "repo": "repo-2",
+      "kind": "hash",
+      "extension": "txt"
+    }
+  ],
+  "train_variants": [
+    0,
+    1,
+    2
+  ],
+  "development_variants": [
+    3,
+    4,
+    5
+  ],
+  "test_variants": [
+    101,
+    102,
+    103,
+    120,
+    121,
+    122
+  ],
+  "configurations": [
+    "C0_container",
+    "C2_workspace",
+    "C3_manual_exact",
+    "union_k3",
+    "numeric_k3",
+    "directory_k3",
+    "support_0.5_k3",
+    "bound_stable_k3",
+    "hybrid_validated_k3",
+    "hybrid_without_exact_outputs",
+    "Progent_manual_open_code",
+    "Progent_manual_exact_code",
+    "Progent_manual_structured",
+    "Progent_manual_hardened",
+    "Progent_exact_plus_hybrid"
+  ],
+  "main_executions": 12195,
+  "cases_hash": "fe442c1a946e221e2d8240808237b4af799f38ccf55f4c74aeebfb7f2701bc48",
+  "learning_executions": 90,
+  "development_executions": 1668,
+  "source_sha256": {
+    "agentprof/__init__.py": "7028375665affde291af7af5d9107c41c5236953db7e423123635d9955c5a85c",
+    "agentprof/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "agentprof/bound.py": "e495f887664d0bdb0e85bfe0f3c049992da131b25c103d594359b6336413333e",
+    "agentprof/cli.py": "b95d76e115f02571ad4a6cb1f62f86c12e2ee196ab189cafd06efa4315e9d357",
+    "agentprof/policy.py": "7b452ab765389cd6c827387e343ef6b650a2af350078953ab6c5f6e9a7d5ca8d",
+    "agentprof/runtime.py": "d088f938e5aada546a9a480a7bb37d11754708f2369bbd00a7ead495bf26ca60",
+    "agentprof/select.py": "1d9b53d4d70510f1a389cd5ba42e165ea38db55faecfd36c0de516712d2e0238",
+    "agentprof/trace.py": "53a7518768e97c300249fcc7cc4690d6d32f90081f99f4cb0f6d1acb0cf23f4d",
+    "benchmarks/__init__.py": "0aa9012eb3b84cc36b110ef86d21c51928f26c2fe7799012ebe2513eddb5efae",
+    "benchmarks/comparison_checks.py": "99d9871b8f14d4b69b2a067c26abe06f1caba8a5164dc0071a049c98fd7888b1",
+    "benchmarks/evaluate.py": "4036c3fd9e49f70fad14c977d8839c748da968bdc791bea21153dee7c56c267d",
+    "benchmarks/fixtures.py": "f574775de536e524a5cf84ccac582b093dc42eb42fd723795a08b96658169f5b",
+    "benchmarks/large_evaluate.py": "333aff0aa72d03ef86290cea4bee5fa11b3c109b45c75ca8281f2bcf57fc83e3",
+    "benchmarks/large_fixtures.py": "0c4374f6aae9e916dd59d6db6cb42b38a074a19c133f56cf520246c3121811ed",
+    "benchmarks/large_payload.py": "45bf08c163c92779aa7529b71e6e1d499a98a0fd2b3f1a49b6ae9a24ddb82819",
+    "benchmarks/linux_checks.py": "1bc065309c23c3ffe871709fb54244a124d33222fc779a9fd1d556a8a6864ebc",
+    "benchmarks/payload.py": "250c0e99d88c48588d9c90783f0a78cf4e42f8b546765dca06847d043b609174",
+    "benchmarks/progent_checker.py": "54ca9210565142f1108fe3f54a6280ef80ad0c43ceeae6678cec8b47d0da9cb7",
+    "benchmarks/progent_runtime.py": "aa64ea8619c0d106c984b0d459bcdaca51377a42be5bd495c4ad187116d06ddc",
+    "native/sandbox.c": "9a085abca9779912168fed6530b12acde3a04bd6447963c948cbcedaabe6c3d9"
+  },
+  "progent": {
+    "repository": "https://github.com/sunblaze-ucb/progent",
+    "commit": "5be7b63fa96f70bc19b72fbcee81f1c0bcc1a565",
+    "sha256": {
+      "LICENSE": "edf91d27e4acd6f0db848aae9032bee8674ce0eb85ca380667414e135a39ea0a",
+      "secagent/__init__.py": "edd5b4df72a48e671a89aad5365a90aaf21b828802434bc79a2d1f5fe4f70cf9",
+      "secagent/tool.py": "59b2cd642a9c29f2459e919720fae935a5f6f99a2a5fa0c17f1ea95e9efbcd52",
+      "tool.py": "59b2cd642a9c29f2459e919720fae935a5f6f99a2a5fa0c17f1ea95e9efbcd52",
+      "secagent/utils.py": "6b185684f5255acc33fcbaa615ec408368981f2a1f2902b4b28803fa188338e1",
+      "secagent/policy_analysis.py": "e4d03f0f77a41e0a464056c03218faabf7a493c742cf69ae3cc507911e954cef",
+      "secagent/role_analyzer.py": "4acb307d32e6c7f619ec9b3cea205b2bbcd1619963b26aa074e3bbbb3a8cc22c"
+    }
+  },
+  "model_calls": 0,
+  "synthetic_secret_sha256": "83f7ff046d59380550c82c1597583b368bd7eb024424110d06d9b2544a28c0ff",
+  "limitations": [
+    "30 task contexts from 10 hand-written workflow implementations, not 30 independent agent tasks",
+    "One execution per unique final case; no repeated-seed uncertainty estimate",
+    "Trusted structured task bindings are supplied, not inferred from natural language",
+    "Development attacks are hand-written and overlap categories with the final suite",
+    "No AgentDojo/ASB/AgentPoison or Progent-LLM reproduction",
+    "Sequential configuration order can affect timing; common runtime grants excluded from footprint"
+  ]
+}

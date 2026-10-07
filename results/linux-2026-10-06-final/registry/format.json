@@ -1,0 +1,509 @@
+{
+  "profile": {
+    "schema": 1,
+    "workflow": "format",
+    "training_runs": 3,
+    "trace_hashes": [
+      "ebf180474a56b16cff90f66400ae7f1a79e8867ea0f30845137f0c34cdf8071e",
+      "1cf9b4ad89768a39e717bf803c2344a0c1d42539a9dbb2b1ab105e2f35a80163",
+      "9ae5129dc646aa612c5c60932dfbefc3581e9fff9b4f2387f50c340bb01adeb4"
+    ],
+    "generalise": false,
+    "support_threshold": 0.0,
+    "protect_secrets": true,
+    "rules": [
+      {
+        "kind": "exec",
+        "resource": "/usr/local/bin/python3.13",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "list",
+        "resource": "/opt/agentprof",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "list",
+        "resource": "/opt/agentprof/benchmarks",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "list",
+        "resource": "/usr/local/lib/python3.13",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "list",
+        "resource": "/usr/local/lib/python3.13/encodings",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "list",
+        "resource": "/usr/local/lib/python3.13/json",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "list",
+        "resource": "/usr/local/lib/python3.13/lib-dynload",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "list",
+        "resource": "/usr/local/lib/python3.13/pathlib",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "list",
+        "resource": "/usr/local/lib/python3.13/re",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "list",
+        "resource": "/usr/local/lib/python3.13/site-packages",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/etc/ld.so.cache",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/etc/nsswitch.conf",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/etc/passwd",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/opt/agentprof/benchmarks/payload.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/proc/sys/vm/overcommit_memory",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/lib/aarch64-linux-gnu/gconv/gconv-modules.cache",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/lib/aarch64-linux-gnu/libbz2.so.1.0.4",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/lib/aarch64-linux-gnu/libc.so.6",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/lib/aarch64-linux-gnu/liblzma.so.5.8.1",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/lib/aarch64-linux-gnu/libm.so.6",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/lib/aarch64-linux-gnu/libz.so.1.3.1",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/lib/locale/C.utf8/LC_CTYPE",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/libpython3.13.so.1.0",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/_compression.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/_weakrefset.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/argparse.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/bz2.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/collections/__init__.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/contextlib.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/copyreg.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/encodings/__init__.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/encodings/aliases.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/encodings/utf_8.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/enum.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/fnmatch.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/functools.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/gettext.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/glob.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/json/__init__.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/json/decoder.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/json/encoder.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/json/scanner.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/keyword.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/lib-dynload/_bz2.cpython-313-aarch64-linux-gnu.so",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/lib-dynload/_json.cpython-313-aarch64-linux-gnu.so",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/lib-dynload/_lzma.cpython-313-aarch64-linux-gnu.so",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/lib-dynload/_posixsubprocess.cpython-313-aarch64-linux-gnu.so",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/lib-dynload/_socket.cpython-313-aarch64-linux-gnu.so",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/lib-dynload/array.cpython-313-aarch64-linux-gnu.so",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/lib-dynload/fcntl.cpython-313-aarch64-linux-gnu.so",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/lib-dynload/grp.cpython-313-aarch64-linux-gnu.so",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/lib-dynload/math.cpython-313-aarch64-linux-gnu.so",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/lib-dynload/select.cpython-313-aarch64-linux-gnu.so",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/lib-dynload/zlib.cpython-313-aarch64-linux-gnu.so",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/locale.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/lzma.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/operator.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/pathlib/__init__.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/pathlib/_abc.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/pathlib/_local.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/re/__init__.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/re/_casefix.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/re/_compiler.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/re/_constants.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/re/_parser.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/reprlib.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/selectors.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/shutil.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/signal.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/socket.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/subprocess.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/threading.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/types.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/local/lib/python3.13/warnings.py",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/usr/share/zoneinfo/Etc/UTC",
+        "support": 1.0,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/workspace/src/calc-0.py",
+        "support": 0.3333333333333333,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/workspace/src/calc-1.py",
+        "support": 0.3333333333333333,
+        "source": "observed"
+      },
+      {
+        "kind": "read",
+        "resource": "/workspace/src/calc-2.py",
+        "support": 0.3333333333333333,
+        "source": "observed"
+      },
+      {
+        "kind": "write",
+        "resource": "/workspace/src/calc-0.py",
+        "support": 0.3333333333333333,
+        "source": "observed"
+      },
+      {
+        "kind": "write",
+        "resource": "/workspace/src/calc-1.py",
+        "support": 0.3333333333333333,
+        "source": "observed"
+      },
+      {
+        "kind": "write",
+        "resource": "/workspace/src/calc-2.py",
+        "support": 0.3333333333333333,
+        "source": "observed"
+      }
+    ]
+  },
+  "profile_hash": "cf638f53c1b39c1690e15218c4dd99d0e95ed028b8c9bfc418ddb4a8c4e4f68b",
+  "context": {
+    "repository": "fixture-repo",
+    "environment": "6.12.76-linuxkit",
+    "workflow_version": "1"
+  }
+}

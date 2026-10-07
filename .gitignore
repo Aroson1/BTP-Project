@@ -5,9 +5,14 @@ __pycache__/
 .env
 build/
 *.egg-info/
-# Keep documentation and local experiment outputs off GitHub.
+# Keep documentation off GitHub.
 /docs/
 /docs-new-approach/
 /README.md
-/results/
+# Publish verified final runs; keep debug and exploratory runs local.
+/results/*
+!/results/LATEST
+!/results/linux-2026-10-06-final/
+!/results/comparison-2026-10-07-final/
+/results/private/
 vendor/

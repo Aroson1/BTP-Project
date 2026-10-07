@@ -1,0 +1,48 @@
+{
+  "schema": 2,
+  "workflow": "repo-2-hash",
+  "training_runs": 3,
+  "include_rare": false,
+  "rules": [
+    {
+      "kind": "read",
+      "resource": "$input",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "write",
+      "resource": "$output",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "exec",
+      "resource": "/usr/local/bin/python3.13",
+      "source": "stable-evidence"
+    },
+    {
+      "kind": "read",
+      "resource": "/etc/passwd",
+      "source": "stable-evidence"
+    },
+    {
+      "kind": "read",
+      "resource": "/etc/ssl/openssl.cnf",
+      "source": "stable-evidence"
+    },
+    {
+      "kind": "read",
+      "resource": "/proc/sys/vm/overcommit_memory",
+      "source": "stable-evidence"
+    }
+  ],
+  "scopes": {
+    "input": "/workspace/repo-2/input",
+    "output": "/workspace/repo-2/out"
+  },
+  "protect_secrets": true,
+  "trace_hashes": [
+    "6d955ec5f7a2fd9301d2eed98c0ca8cbc1fc906d2d6fda9fe78d54e62617be19",
+    "c19ac08b70a4bbe0a6087968b8eb74b8c2115afd9a9e9c82f1aeb480476d2991",
+    "2434d109e690c9c2f10c37a4f31b72fbbc71216616b841450615c86d60c6fef8"
+  ]
+}

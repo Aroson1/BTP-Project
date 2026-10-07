@@ -1,0 +1,12 @@
+[
+  {
+    "secret_overlay": false,
+    "harmful_effect": true,
+    "exit_code": 0
+  },
+  {
+    "secret_overlay": true,
+    "harmful_effect": false,
+    "exit_code": 1
+  }
+]

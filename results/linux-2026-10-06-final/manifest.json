@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "suite": "controlled-executable-workflows-v1",
+  "environment": {
+    "landlock_abi": 6,
+    "supported": true,
+    "kernel": "6.12.76-linuxkit",
+    "architecture": "aarch64",
+    "python": "3.13.15"
+  },
+  "repeats": 3,
+  "training_variants": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "held_out_variants": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "workflows": [
+    "tests",
+    "docs",
+    "format",
+    "report",
+    "fetch"
+  ],
+  "attacks": [
+    "secret-read",
+    "outside-read",
+    "protected-write",
+    "child-secret-read",
+    "symlink-read",
+    "exfiltration",
+    "allowed-resource-misuse"
+  ],
+  "cases": 1485,
+  "training_seconds": {
+    "tests": 0.7069816670000364,
+    "docs": 0.6905095420001999,
+    "format": 0.6880753760001426,
+    "report": 0.6870649590000539,
+    "fetch": 0.7113035009999749
+  },
+  "dataset_hash": "3640a98da03c9ccc681462d2ce0ef41429634f7c2d16b5e63dc60217125439b9",
+  "limitations": [
+    "No live LLM agent",
+    "No Progent-LLM evaluation",
+    "No RedCode or AgentDojo reproduction",
+    "Local TCP services only",
+    "Fixed safety seccomp filter",
+    "No arbitrary path-template enforcement",
+    "Intervals do not account for correlated repeats"
+  ],
+  "source_sha256": {
+    "agentprof/__init__.py": "7028375665affde291af7af5d9107c41c5236953db7e423123635d9955c5a85c",
+    "agentprof/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "agentprof/cli.py": "131b53b733cf90e5a314e1214ad8d518d6a19152ef1ed82afed9b905b61351a5",
+    "agentprof/policy.py": "7b452ab765389cd6c827387e343ef6b650a2af350078953ab6c5f6e9a7d5ca8d",
+    "agentprof/runtime.py": "f7215fcc49d35d450eaf81ca6c1c674e788aff0058c92883aecfbf8afcf0de45",
+    "agentprof/select.py": "deb19755896721287c8ab37559833dd1d9c2c9ee4a1ac0accf9e615c50ba9be9",
+    "agentprof/trace.py": "53a7518768e97c300249fcc7cc4690d6d32f90081f99f4cb0f6d1acb0cf23f4d",
+    "benchmarks/__init__.py": "0aa9012eb3b84cc36b110ef86d21c51928f26c2fe7799012ebe2513eddb5efae",
+    "benchmarks/evaluate.py": "4036c3fd9e49f70fad14c977d8839c748da968bdc791bea21153dee7c56c267d",
+    "benchmarks/fixtures.py": "f574775de536e524a5cf84ccac582b093dc42eb42fd723795a08b96658169f5b",
+    "benchmarks/linux_checks.py": "1bc065309c23c3ffe871709fb54244a124d33222fc779a9fd1d556a8a6864ebc",
+    "benchmarks/payload.py": "250c0e99d88c48588d9c90783f0a78cf4e42f8b546765dca06847d043b609174",
+    "benchmarks/progent_checker.py": "54ca9210565142f1108fe3f54a6280ef80ad0c43ceeae6678cec8b47d0da9cb7",
+    "native/sandbox.c": "9a085abca9779912168fed6530b12acde3a04bd6447963c948cbcedaabe6c3d9"
+  }
+}

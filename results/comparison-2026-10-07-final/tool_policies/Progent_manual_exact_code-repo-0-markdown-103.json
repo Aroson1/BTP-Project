@@ -1,0 +1,75 @@
+{
+  "policy": {
+    "run_workflow": [
+      [
+        1,
+        0,
+        {
+          "kind": {
+            "enum": [
+              "markdown"
+            ]
+          },
+          "source": {
+            "enum": [
+              "/workspace/repo-0/input/item-103.md"
+            ]
+          },
+          "target": {
+            "enum": [
+              "/workspace/repo-0/out/result-103.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "read_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-0/input/item-103.md"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "write_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-0/out/result-103.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "exec_python": [
+      [
+        1,
+        0,
+        {
+          "code": {
+            "enum": [
+              "from benchmarks.large_payload import transform; transform(**{'kind': 'markdown', 'source': '/workspace/repo-0/input/item-103.md', 'target': '/workspace/repo-0/out/result-103.json'})"
+            ]
+          }
+        },
+        0
+      ]
+    ]
+  },
+  "trusted_bindings": {
+    "input": "/workspace/repo-0/input/item-103.md",
+    "output": "/workspace/repo-0/out/result-103.json"
+  },
+  "exact_code": "from benchmarks.large_payload import transform; transform(**{'kind': 'markdown', 'source': '/workspace/repo-0/input/item-103.md', 'target': '/workspace/repo-0/out/result-103.json'})"
+}

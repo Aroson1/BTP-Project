@@ -1,0 +1,61 @@
+{
+  "policy": {
+    "run_workflow": [
+      [
+        1,
+        0,
+        {
+          "kind": {
+            "enum": [
+              "sqlite-report"
+            ]
+          },
+          "source": {
+            "enum": [
+              "/workspace/repo-0/input/item-63d8bef4e7.db"
+            ]
+          },
+          "target": {
+            "enum": [
+              "/workspace/repo-0/out/result-63d8bef4e7.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "read_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-0/input/item-63d8bef4e7.db"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "write_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-0/out/result-63d8bef4e7.json"
+            ]
+          }
+        },
+        0
+      ]
+    ]
+  },
+  "trusted_bindings": {
+    "input": "/workspace/repo-0/input/item-63d8bef4e7.db",
+    "output": "/workspace/repo-0/out/result-63d8bef4e7.json"
+  },
+  "exact_code": "from benchmarks.large_payload import transform; transform(**{'kind': 'sqlite-report', 'source': '/workspace/repo-0/input/item-63d8bef4e7.db', 'target': '/workspace/repo-0/out/result-63d8bef4e7.json'})"
+}

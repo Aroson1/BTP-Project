@@ -1,0 +1,43 @@
+{
+  "schema": 2,
+  "workflow": "repo-2-archive-manifest",
+  "training_runs": 3,
+  "include_rare": false,
+  "rules": [
+    {
+      "kind": "read",
+      "resource": "$input",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "write",
+      "resource": "$output",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "exec",
+      "resource": "/usr/local/bin/python3.13",
+      "source": "stable-evidence"
+    },
+    {
+      "kind": "read",
+      "resource": "/etc/passwd",
+      "source": "stable-evidence"
+    },
+    {
+      "kind": "read",
+      "resource": "/proc/sys/vm/overcommit_memory",
+      "source": "stable-evidence"
+    }
+  ],
+  "scopes": {
+    "input": "/workspace/repo-2/input",
+    "output": "/workspace/repo-2/out"
+  },
+  "protect_secrets": true,
+  "trace_hashes": [
+    "554e437c7d8152a2e1a50e72cccf813dcaf8a36e7aae3e025816001847d82eeb",
+    "7180cd90ba391614a21e3ea539481ea0a15676a61d7c4b3b7767454d798fd7d3",
+    "f450e240936ce1a363bbd493f56e92cc533cb337a1ad95b2bdee8db9e430c626"
+  ]
+}

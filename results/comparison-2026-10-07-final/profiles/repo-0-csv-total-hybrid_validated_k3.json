@@ -1,0 +1,65 @@
+{
+  "schema": 2,
+  "workflow": "repo-0-csv-total",
+  "training_runs": 3,
+  "include_rare": true,
+  "rules": [
+    {
+      "kind": "read",
+      "resource": "$input",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "write",
+      "resource": "$output",
+      "source": "paired-task-evidence"
+    },
+    {
+      "kind": "exec",
+      "resource": "/usr/local/bin/python3.13",
+      "source": "stable-evidence"
+    },
+    {
+      "kind": "read",
+      "resource": "/workspace/repo-0/settings.json",
+      "source": "stable-evidence"
+    }
+  ],
+  "scopes": {
+    "input": "/workspace/repo-0/input",
+    "output": "/workspace/repo-0/out"
+  },
+  "protect_secrets": true,
+  "trace_hashes": [
+    "d571bfb089428d668349b8cd8e5b2683d40fda9b9c4a473a616ffe0f062d5461",
+    "eec6ce645742e6c53bfee1a5dcd4e10967b266447f8e0f4f452f07712c8ce9ca",
+    "1ecb5b882e7fc258c399c7644ce9586bd35f40f69dcc192cdfcd6a2c7dff0060"
+  ],
+  "pruning": [
+    {
+      "rule": {
+        "kind": "read",
+        "resource": "/etc/passwd",
+        "source": "stable-evidence"
+      },
+      "removed": true
+    },
+    {
+      "rule": {
+        "kind": "read",
+        "resource": "/proc/sys/vm/overcommit_memory",
+        "source": "stable-evidence"
+      },
+      "removed": true
+    },
+    {
+      "rule": {
+        "kind": "read",
+        "resource": "/workspace/repo-0/settings.json",
+        "source": "stable-evidence"
+      },
+      "removed": false
+    }
+  ],
+  "selection_evidence": "1b797921127d21cc98895f3d6bb06abce9e6469aebada6cc65d3b644efdcda25"
+}

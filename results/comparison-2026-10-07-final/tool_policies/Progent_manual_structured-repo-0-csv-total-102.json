@@ -1,0 +1,61 @@
+{
+  "policy": {
+    "run_workflow": [
+      [
+        1,
+        0,
+        {
+          "kind": {
+            "enum": [
+              "csv-total"
+            ]
+          },
+          "source": {
+            "enum": [
+              "/workspace/repo-0/input/item-102.csv"
+            ]
+          },
+          "target": {
+            "enum": [
+              "/workspace/repo-0/out/result-102.json"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "read_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-0/input/item-102.csv"
+            ]
+          }
+        },
+        0
+      ]
+    ],
+    "write_file": [
+      [
+        1,
+        0,
+        {
+          "path": {
+            "enum": [
+              "/workspace/repo-0/out/result-102.json"
+            ]
+          }
+        },
+        0
+      ]
+    ]
+  },
+  "trusted_bindings": {
+    "input": "/workspace/repo-0/input/item-102.csv",
+    "output": "/workspace/repo-0/out/result-102.json"
+  },
+  "exact_code": "from benchmarks.large_payload import transform; transform(**{'kind': 'csv-total', 'source': '/workspace/repo-0/input/item-102.csv', 'target': '/workspace/repo-0/out/result-102.json'})"
+}
