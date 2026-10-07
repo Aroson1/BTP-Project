@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.env
+build/
+*.egg-info/
+# Keep documentation and local experiment outputs off GitHub.
+/docs/
+/docs-new-approach/
+/README.md
+/results/
+vendor/

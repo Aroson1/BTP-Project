@@ -1,0 +1,12 @@
+*
+!Dockerfile
+!Dockerfile.comparison
+!agentprof/
+!agentprof/**
+!native/
+!native/**
+!benchmarks/
+!benchmarks/**
+!vendor/
+!vendor/**
+**/__pycache__
